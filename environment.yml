@@ -4,13 +4,15 @@ channels:
     - conda-forge
 dependencies:
     - python==3.6
+    - pip
     - numpy
     - matplotlib
     - jupyter
     - pillow
     - scipy
     - ffmpeg
-    - imageio==2.1.2
+    # - imageio==2.1.2
+    - imageio
+    - moviepy
     - pip:
-        - moviepy
         - tensorflow-gpu==1.4
